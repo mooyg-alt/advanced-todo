@@ -1,0 +1,15 @@
+{
+  "name": "advanced-todo",
+  "version": "1.0.0",
+  "license": "MIT",
+  "workspaces": [
+    "dev/*"
+  ],
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"cd dev/api/ && yarn run start && cd - \", \"cd dev/web/ && yarn run dev && cd - \" "
+  },
+  "dependencies": {
+    "concurrently": "^6.2.0"
+  }
+}

@@ -1,0 +1,5 @@
+node_modules/
+dev/web/node_modules/
+dev/web/.next/
+dev/api/node_modules/
+dev/api/.env
