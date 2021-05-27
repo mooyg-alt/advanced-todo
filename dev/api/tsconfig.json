@@ -23,9 +23,8 @@
       "experimentalDecorators": true,
       "skipLibCheck": true,
       "baseUrl": ".",
-      "rootDir": "src",
       "paths": {
-        "@models/*":["src/prisma/generated/type-graphql/models/*"],
+        "@models/*":["prisma/generated/type-graphql/models/*"],
         "@context/*": ["src/context/*"]
       },
     },
