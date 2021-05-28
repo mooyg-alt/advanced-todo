@@ -5,11 +5,12 @@ module.exports = {
     extend: {
       colors:{
         'primary': "#F5ECEC",
-        'textPrimary': "#817F7F",
+        'textPrimary': "#414141",
+        'secondary': "#ABB0D8"
       },
       flex:{
-        "7/10": '0.7 0.7 auto',
-        "3/10": '0.3 0.3 auto'
+        "7/10": '0.85 0.85 auto',
+        "3/10": '0.15 0.15 auto'
       },
     },
   },
